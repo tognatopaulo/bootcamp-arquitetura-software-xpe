@@ -7,4 +7,6 @@ Arquitetura em nuvem escalável, com alta disponibilidade e resiliência para um
 - Provisão de um serviço de banco de dados gerenciado (PaaS) que garanta alta disponibilidade e segurança para os dados da aplicação.
 - Configuração de controle de acesso (IAM) para que as VMs tenham permissões de leitura e escrita no banco de dados provisionado.
 
-!Arquitetura](PauloGusttavoTognato.drawio.png)
+## Diagrama
+
+![Diagrama de Paulo Gustavo Tognato](PauloGusttavoTognato.drawio.png)
