@@ -6,3 +6,5 @@ Arquitetura em nuvem escalável, com alta disponibilidade e resiliência para um
 - Escalonamento automático das VMs de acordo com a demanda, com um mínimo de 3 e máximo de 6 instâncias, usando imagens Linux.
 - Provisão de um serviço de banco de dados gerenciado (PaaS) que garanta alta disponibilidade e segurança para os dados da aplicação.
 - Configuração de controle de acesso (IAM) para que as VMs tenham permissões de leitura e escrita no banco de dados provisionado.
+
+!Arquitetura](PauloGusttavoTognato.drawio.png)
