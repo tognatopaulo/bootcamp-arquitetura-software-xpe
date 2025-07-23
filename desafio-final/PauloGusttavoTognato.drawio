@@ -1,4 +1,4 @@
-<mxfile modified="2025-07-21T23:55:02.237Z" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="L6Dkq0dfQjSyNR7oLcOH" version="24.0.4" type="device">
+<mxfile modified="2025-07-23T23:02:56.279Z" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="VbgAeDEibNa1-vBKg0CR" version="24.0.4" type="device">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2167" dy="1194" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,10 +13,10 @@
         <mxCell id="vj_e4KWAqe06JJKU77hG-33" value="VPC (10.0.0.0/16)" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#6c8ebf;fillColor=#dae8fc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="496" y="209" width="1068" height="773.5" as="geometry" />
         </mxCell>
-        <mxCell id="vj_e4KWAqe06JJKU77hG-35" value="Availability zone (az-a)" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#666666;fillColor=#f5f5f5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;" vertex="1" parent="1">
+        <mxCell id="vj_e4KWAqe06JJKU77hG-35" value="Availability zone (us-east-1a&amp;nbsp;)" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#666666;fillColor=#f5f5f5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="656" y="252" width="867" height="262" as="geometry" />
         </mxCell>
-        <mxCell id="vj_e4KWAqe06JJKU77hG-36" value="Availability zone (az-b)" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#666666;fillColor=#f5f5f5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;" vertex="1" parent="1">
+        <mxCell id="vj_e4KWAqe06JJKU77hG-36" value="Availability zone (us-east-1b)" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#666666;fillColor=#f5f5f5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="656" y="679" width="867" height="262" as="geometry" />
         </mxCell>
         <mxCell id="vj_e4KWAqe06JJKU77hG-41" value="Auto Scaling Group&lt;br&gt;(Min: 3 / Max: 6)" style="outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.groupCenter;grIcon=mxgraph.aws4.group_auto_scaling_group;grStroke=0;strokeColor=#82b366;fillColor=#d5e8d4;verticalAlign=top;align=center;spacingTop=25;strokeWidth=2;fillStyle=auto;gradientColor=none;" vertex="1" parent="1">
