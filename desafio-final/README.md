@@ -24,11 +24,11 @@ A arquitetura foi planejada para operar no provedor de cloud AWS, na região us-
 ### Organização das Subnets e Grupos de Segurança
 Todas as subnets foram definidas como privadas, uma vez que o acesso externo à aplicação será feito por meio de um API Gateway e um Application Load Balancer (ALB), que atuam como camada de entrada e distribuem as requisições para os recursos internos.
 A divisão das subnets foi pensada da seguinte forma:
-•	10.0.1.0/24 e 10.0.2.0/24: destinadas às instâncias EC2 da aplicação;
-•	10.0.21.0/24 e 10.0.22.0/24: reservadas para o banco de dados Amazon RDS.
+-	10.0.1.0/24 e 10.0.2.0/24: destinadas às instâncias EC2 da aplicação;
+-	10.0.21.0/24 e 10.0.22.0/24: reservadas para o banco de dados Amazon RDS.
 Para garantir a segurança da comunicação entre os componentes, foram definidos Grupos de Segurança (Security Groups) com regras restritivas:
-•	O SG da aplicação (sg-app) permite tráfego HTTP/HTTPS proveniente do Load Balancer, além de saída para a porta 3306 (MySQL) do RDS;
-•	O SG do banco de dados (sg-db) permite entrada apenas a partir do SG da aplicação, garantindo que o banco só possa ser acessado pelas instâncias EC2.
+-	O SG da aplicação (sg-app) permite tráfego HTTP/HTTPS proveniente do Load Balancer, além de saída para a porta 3306 (MySQL) do RDS;
+-	O SG do banco de dados (sg-db) permite entrada apenas a partir do SG da aplicação, garantindo que o banco só possa ser acessado pelas instâncias EC2.
 ### Camada de Entrada e Balanceamento de Carga
 A arquitetura prevê o uso do Amazon Route 53 para resolução de nomes DNS, apontando para um API Gateway, que centraliza e protege o acesso à aplicação. O Application Load Balancer (ALB) será responsável por distribuir as requisições entre as instâncias EC2 em múltiplas zonas de disponibilidade, promovendo alta disponibilidade e balanceamento de carga.
 ### Estratégia de Auto Scaling
